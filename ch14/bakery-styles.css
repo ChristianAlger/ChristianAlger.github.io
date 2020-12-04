@@ -13,6 +13,11 @@ body {
 }
 
 /* link styles */
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  padding: .2em;
+}
 a:link, a:visited { color: #DC6903; }
 a:focus, a:hover, a:active { color: #F9AB33; }
 
@@ -49,6 +54,8 @@ nav ul li {
 
 /* main "products" styles */
 main {
+  border-radius: 25px;
+  border: double 4px #EADDC4;
   padding:1em;
   font-family: 'Stint Ultra Expanded', cursive;
   background-color: white;
@@ -56,6 +63,9 @@ main {
   color: #555;
 }
 h3 {
+  border-top: 1px solid;
+  border-left: 3px solid;
+  padding-left: 1em;
   text-transform: uppercase;
   letter-spacing: .2em;
   color: #7A0002;
@@ -68,6 +78,7 @@ p.more {
 
 /* aside "hours" styles */
 aside {
+  border-top-right-radius: 25px;
   padding: 1em;
   padding-left: 45px;
   background: url(images/scallop.png) repeat-y left top;
